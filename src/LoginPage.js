@@ -139,88 +139,10 @@ export default function BoxComponent() {
               Forgot your username or password ?
             </Typography>
           </Box>
+          
         </Container>
       </Box>
+
     </Box>
   );
-
-  // return (
-  //     //enclosing in the parent element
-  //     <div className='login-page' >
-  //         <Box  //using self closing tags because no content to display
-  //             sx={{
-  //                 width: "100%",
-  //                 height: "100vh",
-  //                 backgroundColor: "#f6f6ef",
-  //                 position: "relative"
-  //             }} />
-
-  //         <div className='center' >
-  //             {/* left part */}
-  //             <Box
-  //             //horizontal center part
-  //                 sx={{
-  //                     width: "100vw",
-  //                     height: "47vh",
-  //                     backgroundColor: "white",
-  //                     position: "absolute",
-  //                     top: 196
-  //                 }}>
-
-  //                 <Box sx={{
-  //                     width: '17%',
-  //                     height: "50%",
-  //                     marginLeft: "20%",
-  //                     marginTop: 10,
-  //                     // backgroundColor: "yellow"
-  //                 }} >
-  //                     <Box
-  //                         component="img"
-  //                         sx={{
-  //                             height: 233,
-  //                             width: 400,
-  //                             maxHeight: { xs: 233, md: 167 },
-  //                             maxWidth: { xs: 350, md: 250 },
-
-  //                         }}
-  //                         alt="logo"
-  //                         src="https://account.ycombinator.com/packs/media/images/yc-logo-e731d4cd66838cebc1d5599da04392ff.svg"
-  //                     />
-  //                     <Box>
-  //                         <Typography style={{ fontWeight: 600, fontSize: 30, }} variant="h5" component="body1" align="center" gutterBottom>
-  //                             Log in to access the YC Application
-  //                         </Typography>
-  //                     </Box>
-
-  //                 </Box>
-
-  //             </Box>
-
-  //             {/* right part */}
-
-  //             <Box
-  //             // sx={{
-  //             //     display:"flex",
-  //             //     alignItems:"right",
-  //             //     justifyContent:"right"
-  //             // }}
-  //             >
-  //                 <Box
-  //                     component="form"
-  //                 // sx={{
-  //                 //     '& > :not(style)': { m: 1, width: '25ch' },
-  //                 // }}
-  //                 // noValidate
-  //                 // autoComplete="off"
-  //                 >
-  //                     <TextField id="standard-basic" label="Username or Email" variant="standard" />
-  //                     {/* <TextField id="standard-basic" label="Password" variant="standard" /> */}
-  //                 </Box>
-  //             </Box>
-
-  //         </div>
-
-  //     </div>
-
-  // );
 }
